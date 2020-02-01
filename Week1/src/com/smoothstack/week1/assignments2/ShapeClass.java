@@ -23,12 +23,11 @@ class Circle implements Shape {
 
 	public void input() {
 		Scanner input = new Scanner(System.in);
-		
+
 		try {
 			System.out.print("Circle --- Enter radius: ");
 			radius = Double.parseDouble(input.nextLine());
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			System.out.println("Error. Program will exit now.");
 			System.exit(0);
 		}
@@ -56,12 +55,11 @@ class Rectangle extends Circle {
 
 			System.out.print("Rectangle --- Enter width: ");
 			width = Double.parseDouble(input.nextLine());
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			System.out.println("Error. Program will exit now.");
 			System.exit(0);
 		}
-		
+
 	}
 
 	public void calculateArea() {
@@ -85,12 +83,11 @@ class Triangle extends Rectangle {
 
 			System.out.print("Triangle --- Enter base: ");
 			width = Double.parseDouble(input.nextLine());
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			System.out.println("Error. Program will exit now.");
 			System.exit(0);
 		}
-		
+
 	}
 
 	public void calculateArea() {
