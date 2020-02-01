@@ -1,0 +1,5 @@
+1	Cormack McCarthy
+2	Trevor Noah
+3	Stephen King
+4	F. Scott Fitzgerald
+5	Tim O'Brien
